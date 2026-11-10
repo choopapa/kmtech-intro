@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>광명테크솔루션 회사소개서</title>
+<meta name="description" content="PCB ASSEMBLY SINCE 1993 — 광명테크솔루션 회사소개서">
+<!-- 검색엔진에는 노출하지 않는다: 링크를 받은 사람이 보는 문서. 검색에 나오게 하려면 아래 한 줄을 지운다 -->
+<meta name="robots" content="noindex, nofollow">
+<!-- 메신저·메일에 링크를 붙였을 때 보이는 미리보기 (주소가 바뀌면 og:url 과 og:image 의 주소도 함께 바꾼다) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="광명테크솔루션 회사소개서">
+<meta property="og:description" content="PCB ASSEMBLY SINCE 1993">
+<meta property="og:url" content="https://choopapa.github.io/kmtech-intro/">
+<meta property="og:image" content="https://choopapa.github.io/kmtech-intro/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#02030a">
+<meta name="color-scheme" content="dark">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="광명테크솔루션">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="css/deck.css">
+</head>
+<body>
+
+<!-- 스타일 파일을 불러오지 못한 창(앱의 파일 미리보기 등)에서만 보이는 안내. 정상일 때는 deck.css 가 숨긴다 -->
+<div id="nocss" style="position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:32px;background:#02030a;color:#e9eefc;font:16px/1.7 'Malgun Gothic',sans-serif;text-align:center">
+  <div style="max-width:580px">
+    <div style="font-size:26px;font-weight:700;margin-bottom:14px">광명테크솔루션 회사소개서</div>
+    <div>이 창에서는 소개서의 스타일과 스크립트를 불러오지 못했습니다.<br>파일 미리보기 창에서는 움직이는 소개서를 띄울 수 없습니다.</div>
+    <div style="margin-top:14px;color:#9fb4e8">탐색기에서 <b style="color:#fff">광명테크솔루션_회사소개서.html</b> 파일을 더블클릭해<br>Chrome 또는 Edge 로 열어 주세요.</div>
+  </div>
+</div>
+
+<canvas id="bg" aria-hidden="true"></canvas>
+<div id="veil" aria-hidden="true"></div>
+
+<!-- 검사 프로세스 화살촉 (장표 23·24 가 함께 쓴다) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <marker id="ah-go" viewBox="0 0 6 6" refX="5.4" refY="3" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0L6 3L0 6Z" fill="rgba(255,255,255,.85)"/></marker>
+    <marker id="ah-ng" viewBox="0 0 6 6" refX="5.4" refY="3" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0L6 3L0 6Z" fill="#ff6a55"/></marker>
+    <marker id="ah-ok" viewBox="0 0 6 6" refX="5.4" refY="3" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0L6 3L0 6Z" fill="#7da2ff"/></marker>
+  </defs>
+</svg>
+
+<main id="stage">
+
+  <!-- 01 표지 ─────────────────────────────────────────── -->
+  <section class="slide" data-scene="s01" data-title="표지">
+    <img class="cover-logo" data-a src="assets/logo.svg" alt="KWANG MYUNG TECH">
+    <div class="abs" data-a style="left:791px;top:65px"><p class="cover-side" style="position:static;margin:0">PCB ASSEMBLY SINCE 1993</p></div>
+    <h1 class="abs cover-title" data-a>광명테크솔루션</h1>
+    <p class="abs cover-sub" data-a>회사소개서</p>
+    <p class="abs cover-tags" data-a><span>SMT<i></i></span><span>자동 삽입<u>|</u></span><span>SELECTIVE<i></i></span><span>INSERT<i></i></span><span>완제품<i></i></span><span>구매 자재 관리<i></i></span><span>품질 관리<i></i></span><span>AI 검사</span></p>
+  </section>
+
+  <!-- 02 목차 ─────────────────────────────────────────── -->
+  <section class="slide" data-scene="s02" data-title="목차">
+    <h2 class="h1" data-a>목차소개</h2>
+    <p class="sub" data-a>Table of Contents</p>
+    <ol class="toc">
+      <li data-a><a href="#3"><b>01.</b><span>경영 이념</span></a></li>
+      <li data-a><a href="#4"><b>02.</b><span>회사 개요</span></a></li>
+      <li data-a><a href="#5"><b>03.</b><span>회사 연혁</span></a></li>
+      <li data-a><a href="#6"><b>04.</b><span>조직도</span></a></li>
+      <li data-a><a href="#7"><b>05.</b><span>부서별 현황</span></a></li>
+    </ol>
+  </section>
+
+  <!-- 03 경영이념 ──────────────────────────────────────── -->
+  <section class="slide" data-scene="s03" data-title="경영이념">
+    <h2 class="h1" data-a>경영이념</h2>
+    <p class="sub" data-a>Mission &amp; Vision</p>
+    <p class="abs mv-label" data-a="2" style="top:166px">MISSION</p>
+    <p class="abs mv-text" data-a="2" style="top:174px">신속한 납품, 우수한 품질</p>
+    <p class="abs mv-label" data-a="3" style="top:205px">VISION</p>
+    <p class="abs mv-text" data-a="3" style="top:213px">고객의 소리에 귀를 기울이며 고객의 요구에 대처하는 회사</p>
+    <article class="card value" data-a="5" style="left:50px">
+      <h3>세가지 약속</h3>
+      <p>QUALITY<br>COST<br>DELIVERY</p>
+    </article>
+    <article class="card value" data-a="7" style="left:310px">
+      <h3>혁신</h3>
+      <p>기술 혁신과<br>공정 개선을 통한<br>시장 선도</p>
+    </article>
+    <article class="card value" data-a="9" style="left:570px">
+      <h3>파트너십</h3>
+      <p>고객, 공급업체,<br>지역 사회와의 강력한<br>협력 관계 구축</p>
+    </article>
+  </section>
+
+  <!-- 04 회사개요 ──────────────────────────────────────── -->
+  <section class="slide" data-scene="s04" data-title="회사개요">
+    <h2 class="h1" data-a>회사개요</h2>
+    <p class="sub" data-a>About Us</p>
+    <article class="card info" data-a="3">
+      <h3>회사 정보</h3>
+      <div class="rule"></div>
+      <dl>
+        <dt>회사명</dt><dd>주식회사 광명테크솔루션</dd>
+        <dt>설립일</dt><dd>1993년 11월</dd>
+        <dt>본사위치</dt><dd class="two">서울 금천구 가산디지털1로 233<br>에이스 하이엔드타워 9차 6층 (601호 ~ 618호)</dd>
+        <dt>대표이사</dt><dd>주 석 중</dd>
+        <dt>주요 사업 분야</dt><dd>전기 전자 제조 도소매</dd>
+        <dt>임직원 수</dt><dd>67명</dd>
+      </dl>
+    </article>
+  </section>
+
+  <!-- 05 회사연혁 ──────────────────────────────────────── -->
+  <section class="slide" data-scene="s05" data-title="회사연혁">
+    <h2 class="h1" data-a="0">회사연혁</h2>
+    <p class="sub" data-a="1">History</p>
+    <div class="tl-line" data-a="2"></div>
+
+    <span class="tl-dot" data-a="3" style="left:176px"></span>
+    <span class="tl-stem" data-a="3" style="left:176px;top:315px"></span>
+    <article class="card era" data-a="4" style="left:89px;top:339px;height:156px">
+      <h3>1993. 11</h3><div class="rule"></div>
+      <h4>설립일</h4>
+      <p>PCB ASSEMBLY 공장<br>설립 (인원 20명)</p>
+    </article>
+
+    <span class="tl-dot" data-a="7" style="left:315px"></span>
+    <span class="tl-stem" data-a="7" style="left:315px;top:291px"></span>
+    <article class="card era" data-a="8" style="left:228px;top:59px;height:232px">
+      <h3>2003. 09</h3><div class="rule"></div>
+      <h4>거래처 증가</h4>
+      <p>명성상사 (Japan)<br>(주)푸른기술<br>(주)한국통신<br>(주)성진 씨앤씨<br>DVR 및 지문인식기<br>현금지급기 생산</p>
+    </article>
+
+    <span class="tl-dot" data-a="11" style="left:441px"></span>
+    <span class="tl-stem" data-a="11" style="left:441px;top:315px"></span>
+    <article class="card era" data-a="12" style="left:354px;top:339px;height:232px">
+      <h3>2010. 09</h3><div class="rule"></div>
+      <h4>법인전환</h4>
+      <p>(주)광명테크솔루션<br class="d-only">으로 법인전환<br><br>생산라인 증설<br>구매부서 설립<br>해외 영업부 설립</p>
+    </article>
+
+    <span class="tl-dot" data-a="15" style="left:566px"></span>
+    <span class="tl-stem" data-a="15" style="left:566px;top:291px"></span>
+    <article class="card era" data-a="16" style="left:479px;top:59px;height:232px">
+      <h3>2018. 01</h3><div class="rule"></div>
+      <h4>생산라인 증설</h4>
+      <p>SMT LINE 증설<br>검사 및 시험 설비 증설<br>한전향 AMI MODEM<br>생산 (연간 100만대)<br>VOIP 생산<br>(연간 80만대)</p>
+    </article>
+
+    <span class="tl-dot" data-a="19" style="left:706px"></span>
+    <span class="tl-stem" data-a="19" style="left:706px;top:315px"></span>
+    <article class="card era" data-a="20" style="left:619px;top:339px;height:121px">
+      <h3>2026. 09</h3><div class="rule"></div>
+      <p>AI 스마트팩토리 부서<br>설립</p>
+    </article>
+  </section>
+
+  <!-- 06 조직도 ────────────────────────────────────────── -->
+  <section class="slide" data-scene="s06" data-title="조직도">
+    <h2 class="h1" data-a="0">조직도</h2>
+    <p class="sub" data-a="1">Organization Chart</p>
+
+    <div class="card plain org l1" data-a="2" style="left:310px;top:103px;width:221px;height:50px;--gr:3;--gc:1 / -1">대표이사</div>
+    <div class="vline" data-a="3" style="left:420.5px;top:153px;height:30px"></div>
+    <div class="card plain org l2" data-a="4" style="left:341px;top:183px;width:160px;height:50px;--gr:4;--gc:1 / span 3">총괄 경영대리인</div>
+    <div class="hline" data-a="5" style="left:501px;top:207.5px;width:80px"></div>
+    <div class="card plain org l2" data-a="6" style="left:581px;top:183px;width:160px;height:50px;--gr:4;--gc:4 / span 3">품질관리팀</div>
+    <div class="vline" data-a="7" style="left:420.5px;top:233px;height:65px"></div>
+    <div class="hline" data-a="8" style="left:142px;top:282.5px;width:560px"></div>
+    <div class="vline" data-a="8" style="left:141.5px;top:283px;height:15px"></div>
+    <div class="vline" data-a="8" style="left:281.5px;top:283px;height:15px"></div>
+    <div class="vline" data-a="8" style="left:560.5px;top:283px;height:15px"></div>
+    <div class="vline" data-a="8" style="left:701.5px;top:283px;height:15px"></div>
+
+    <div class="card plain org l3" data-a="10" style="left:81px;top:298px;width:120px;height:50px;--gr:5;--gc:1 / span 3">생산팀</div>
+    <div class="card plain org l3" data-a="11" style="left:221px;top:298px;width:120px;height:50px;--gr:5;--gc:4 / span 3">영업팀</div>
+    <div class="card plain org l3" data-a="12" style="left:361px;top:298px;width:120px;height:50px;--gr:10;--gc:1 / span 3">자재/구매부</div>
+    <div class="card plain org l3" data-a="13" style="left:501px;top:298px;width:120px;height:50px;--gr:10;--gc:4 / span 3">총무팀</div>
+    <div class="card plain org l3" data-a="14" style="left:641px;top:298px;width:120px;height:50px;--gr:12;--gc:1 / -1">기업부설연구소</div>
+
+    <!-- 생산팀 -->
+    <div class="vline" data-a="16" style="left:141.5px;top:348px;height:15px"></div>
+    <div class="card plain org l4" data-a="16" style="left:81px;top:363px;width:120px;height:35px;--gr:6;--gc:1 / span 3">SMT 사업부</div>
+    <div class="vline" data-a="18" style="left:141.5px;top:398px;height:15px"></div>
+    <div class="card plain org l4" data-a="18" style="left:81px;top:413px;width:120px;height:35px;--gr:7;--gc:1 / span 3">SELECTIVE 사업부</div>
+    <div class="vline" data-a="20" style="left:141.5px;top:448px;height:15px"></div>
+    <div class="card plain org l4" data-a="20" style="left:81px;top:463px;width:120px;height:35px;--gr:8;--gc:1 / span 3">INSERT 사업부</div>
+    <div class="vline" data-a="22" style="left:141.5px;top:498px;height:15px"></div>
+    <div class="card plain org l4" data-a="22" style="left:81px;top:513px;width:120px;height:35px;--gr:9;--gc:1 / span 3">완제품 조립 사업부</div>
+    <!-- 영업팀 -->
+    <div class="vline" data-a="16" style="left:281.5px;top:348px;height:15px"></div>
+    <div class="card plain org l4" data-a="16" style="left:221px;top:363px;width:120px;height:35px;--gr:6;--gc:4 / span 3">국내 영업부</div>
+    <div class="vline" data-a="18" style="left:281.5px;top:398px;height:15px"></div>
+    <div class="card plain org l4" data-a="18" style="left:221px;top:413px;width:120px;height:35px;--gr:7;--gc:4 / span 3">해외 영업부</div>
+    <div class="vline" data-a="20" style="left:281.5px;top:448px;height:15px"></div>
+    <div class="card plain org l4" data-a="20" style="left:221px;top:463px;width:120px;height:35px;--gr:8;--gc:4 / span 3">브랜드 및 마케팅 사업부</div>
+    <!-- 자재/구매부 -->
+    <div class="vline" data-a="16" style="left:420.5px;top:348px;height:15px"></div>
+    <div class="card plain org l4" data-a="16" style="left:361px;top:363px;width:120px;height:35px;--gr:11;--gc:1 / span 3">국내<i></i>외 구매부</div>
+    <!-- 총무팀 -->
+    <div class="vline" data-a="16" style="left:560.5px;top:348px;height:15px"></div>
+    <div class="card plain org l4" data-a="16" style="left:501px;top:363px;width:120px;height:35px;--gr:11;--gc:4 / span 3">경영지원부</div>
+    <!-- 기업부설연구소 -->
+    <div class="vline" data-a="16" style="left:701.5px;top:348px;height:15px"></div>
+    <div class="card plain org l4" data-a="16" style="left:641px;top:363px;width:120px;height:35px;--gr:13;--gc:1 / span 3">H/W</div>
+    <div class="vline" data-a="18" style="left:701.5px;top:398px;height:15px"></div>
+    <div class="card plain org l4" data-a="18" style="left:641px;top:413px;width:120px;height:35px;--gr:13;--gc:4 / span 3">S.W</div>
+    <div class="vline" data-a="20" style="left:701.5px;top:448px;height:15px"></div>
+    <div class="card plain org l4" data-a="20" style="left:641px;top:463px;width:120px;height:35px;--gr:14;--gc:1 / span 3">국책사업부</div>
+    <div class="vline" data-a="22" style="left:701.5px;top:498px;height:15px"></div>
+    <div class="card plain org l4" data-a="22" style="left:641px;top:513px;width:120px;height:35px;--gr:14;--gc:4 / span 3">AI 스마트팩토리 사업부</div>
+  </section>
+
+  <!-- 07 생산라인 ──────────────────────────────────────── -->
+  <section class="slide" data-scene="s07" data-title="생산라인">
+    <h2 class="h1" data-a>생산라인</h2>
+    <p class="sub" data-a>Production Line Layout</p>
+    <p class="m-only m-hint" data-a="3">옆으로 밀어서 전체 보기</p>
+    <div class="m-pan" style="--x:50;--y:166;--w:743;--h:380;--k:1.4"><div class="m-canvas"><div class="m-shift">
+    <div class="card plan" data-a="3"></div>
+    <svg class="plan-svg" id="floorplan" data-a="5" viewBox="0 0 842 595" role="img" aria-label="생산라인 배치도"></svg>
+    </div></div></div>
+  </section>
+
+  <!-- 08 SMT 사업부 · 공정 흐름 ─────────────────────────── -->
+  <section class="slide" data-scene="s08" data-title="SMT 사업부">
+    <h2 class="h1" data-a="0">SMT 사업부</h2>
+    <p class="sub" data-a="1">Surface Mounting Technology</p>
+    <div class="card step to-r" data-a="3"  style="left:63px;top:233px">생산 자료 접수</div>
+    <div class="card step to-r" data-a="5"  style="left:248px;top:233px">원자재 입고</div>
+    <div class="card step to-r" data-a="7"  style="left:433px;top:233px">오삽방지시스템 등록</div>
+    <div class="card step to-d" data-a="9"  style="left:618px;top:233px">LINE SETUP</div>
+    <div class="card step to-l" data-a="11" style="left:618px;top:333px">SPI 검사</div>
+    <div class="card step to-l" data-a="13" style="left:433px;top:333px">표면실장</div>
+    <div class="card step to-l" data-a="15" style="left:248px;top:333px">REFLOW</div>
+    <div class="card step to-d" data-a="17" style="left:63px;top:333px">3D AOI 검사</div>
+    <div class="card step"      data-a="19" style="left:63px;top:433px">X-RAY 검사</div>
+  </section>
+
+  <!-- 09 SMT 사업부 · 설비 ──────────────────────────────── -->
+  <section class="slide" data-scene="s09" data-title="SMT 설비">
+    <h2 class="h1" data-a="0">SMT 사업부</h2>
+    <p class="sub" data-a="1">Surface Mounting Technology</p>
+    <h3 class="sec" data-a="2" style="top:146px">SMT 설비</h3>
+
+    <figure class="card eq to-r" data-a="3"  style="left:50px;top:176px;height:170px"><div class="eq-img"><img src="assets/equip/loader.jpg" alt=""></div><figcaption><b>01</b>Loader</figcaption></figure>
+    <figure class="card eq to-r" data-a="5"  style="left:201.5px;top:176px;height:170px"><div class="eq-img"><img src="assets/equip/screen-printer.jpg" alt=""></div><figcaption><b>02</b>Screen Printer</figcaption></figure>
+    <figure class="card eq to-r" data-a="7"  style="left:353px;top:176px;height:170px"><div class="eq-img"><img src="assets/equip/spi.jpg" alt=""></div><figcaption><b>03</b>SPI</figcaption></figure>
+    <figure class="card eq to-r" data-a="9"  style="left:504.5px;top:176px;height:170px"><div class="eq-img"><img src="assets/equip/chip-mounter.jpg" alt=""></div><figcaption><b>04</b>Chip Mounter</figcaption></figure>
+    <figure class="card eq"      data-a="11" style="left:656px;top:176px;height:170px"><div class="eq-img"><img src="assets/equip/work-table.jpg" alt=""></div><figcaption><b>05</b>Work-table</figcaption></figure>
+
+    <figure class="card eq to-r" data-a="13" style="left:50px;top:362px;height:170px"><div class="eq-img"><img src="assets/equip/reflow.jpg" alt=""></div><figcaption><b>06</b>Reflow</figcaption></figure>
+    <figure class="card eq to-r" data-a="15" style="left:201.5px;top:362px;height:170px"><div class="eq-img"><img src="assets/equip/aoi.jpg" alt=""></div><figcaption><b>07</b>AOI</figcaption></figure>
+    <figure class="card eq to-r" data-a="17" style="left:353px;top:362px;height:170px"><div class="eq-img"><img src="assets/equip/ng-buffer.jpg" alt=""></div><figcaption><b>08</b>NG Buffer</figcaption></figure>
+    <figure class="card eq"      data-a="19" style="left:504.5px;top:362px;height:170px"><div class="eq-img"><img src="assets/equip/unloader.jpg" alt=""></div><figcaption><b>09</b>Unloader</figcaption></figure>
+    <div class="card hi stat" data-a="21" style="left:656px;top:362px;width:136px;height:170px;padding-top:42px">
+      <b>3</b><span style="margin-top:8px">SMT LINES</span><em style="margin-top:10px">A · B · C LINE</em>
+    </div>
+  </section>
+
+  <!-- 10 SMT 사업부 · 라인 구성 ─────────────────────────── -->
+  <section class="slide" data-scene="s10" data-title="SMT 라인 구성">
+    <h2 class="h1" data-a="0">SMT 사업부</h2>
+    <p class="sub" data-a="1">Surface Mounting Technology</p>
+    <h3 class="sec" data-a="2" style="top:146px">라인 구성</h3>
+
+    <article class="card line" data-a="4" style="left:50px;top:174px">
+      <div class="name">A-LINE</div>
+      <div class="total"><b data-count>70,000</b><span>CPH</span><i>TOTAL</i></div>
+      <div class="meter"><s style="--w:39%"></s></div>
+      <dl>
+        <dt>SCREEN PRINT</dt><dd><b>MSYS</b> SMART-M65<br>PCB 650 × 460mm</dd>
+        <dt>SPI</dt><dd><b>KOYOUNG</b> KY-8030-2<br>3D SPI</dd>
+        <dt>MOUNTER</dt><dd><b>HANWHA</b></dd>
+        <dd class="models"><span>SM411 1대<em>42,000 CPH</em></span><span>SM482 1대<em>28,000 CPH</em></span></dd>
+        <dt>REFLOW</dt><dd><b>TSM</b> RF-N3-K102<br>14 ZONE · <em>질소적용</em></dd>
+        <dt>AOI<small>with NG Buffer</small></dt><dd><b>PEMTRON</b> 8800HSL<br>3D AOI</dd>
+      </dl>
+    </article>
+
+    <article class="card line" data-a="7" style="left:304px;top:174px">
+      <div class="name">B-LINE</div>
+      <div class="total"><b data-count>162,000</b><span>CPH</span><i>TOTAL</i></div>
+      <div class="meter"><s style="--w:91%"></s></div>
+      <dl>
+        <dt>SCREEN PRINT</dt><dd><b>ESE</b> US-2000X<br>PCB 550 × 400mm</dd>
+        <dt>SPI</dt><dd><b>PEMTRON</b> TROI-7700E<br>3D SPI</dd>
+        <dt>MOUNTER</dt><dd><b>HANWHA</b></dd>
+        <dd class="models"><span>SM471 PLUS 1대<em>78,000 CPH</em></span><span>SM411 1대<em>42,000 CPH</em></span><span>SM321 2대<em>21,000 CPH × 2</em></span></dd>
+        <dt>REFLOW</dt><dd><b>TSM</b> RF-N3-K102<br>14 ZONE · <em>질소적용</em></dd>
+        <dt>AOI<small>with NG Buffer</small></dt><dd><b>PEMTRON</b> 8800HSL<br>3D AOI</dd>
+      </dl>
+    </article>
+
+    <article class="card line hi" data-a="10" style="left:558px;top:174px">
+      <div class="name">C-LINE</div>
+      <div class="total"><b data-count>178,000</b><span>CPH</span><i>TOTAL</i></div>
+      <div class="meter"><s style="--w:100%"></s></div>
+      <dl>
+        <dt>SCREEN PRINT</dt><dd><b>ESE</b> SMART-M65<br>PCB 650 × 460mm</dd>
+        <dt>SPI</dt><dd><b>PEMTRON</b> TROI-7700H<br>3D SPI</dd>
+        <dt>MOUNTER</dt><dd><b>HANWHA</b></dd>
+        <dd class="models"><span>SM471 PLUS 1대<em>78,000 CPH</em></span><span>SM481 PLUS 1대<em>40,000 CPH</em></span><span>SM482 PLUS 2대<em>30,000 CPH × 2</em></span></dd>
+        <dt>REFLOW</dt><dd><b>TSM</b> TRNI-E102S<br>10 ZONE · <em>질소적용</em></dd>
+        <dt>AOI<small>with NG Buffer</small></dt><dd><b>PEMTRON</b> 8800HSL<br>3D AOI</dd>
+      </dl>
+    </article>
+  </section>
+
+  <!-- 11 SMT 사업부 · X-RAY ─────────────────────────────── -->
+  <section class="slide" data-scene="s11" data-title="X-RAY 검사기">
+    <h2 class="h1" data-a="0">SMT 사업부</h2>
+    <p class="sub" data-a="1">Surface Mounting Technology</p>
+    <h3 class="sec" data-a="2" style="top:146px">X-RAY 검사기 보유</h3>
+
+    <figure class="card eq big" data-a="4" style="left:50px;top:176px;width:220px;height:370px"><div class="eq-img"><img src="assets/equip/xray-machine.jpg" alt="X-RAY 검사기"></div></figure>
+    <figure class="card eq big" data-a="7"  style="left:290px;top:176px;width:241px;height:175px"><div class="eq-img photo"><img src="assets/equip/xray-view-1.jpg" alt="X-RAY 검사 화면"></div></figure>
+    <figure class="card eq big" data-a="9"  style="left:551px;top:176px;width:241px;height:175px"><div class="eq-img paper"><img src="assets/equip/xray-good-ng.jpg" alt="Good / NG 판정 예시"></div></figure>
+    <figure class="card eq big" data-a="11" style="left:290px;top:371px;width:241px;height:175px"><div class="eq-img photo"><img src="assets/equip/xray-view-2.jpg" alt="X-RAY 검사 화면"></div></figure>
+    <figure class="card eq big" data-a="13" style="left:551px;top:371px;width:241px;height:175px"><div class="eq-img photo"><img src="assets/equip/xray-console.jpg" alt="X-RAY 검사기 조작부"></div></figure>
+  </section>
+
+  <!-- 12 자동 삽입 / SELECTIVE 사업부 · 공정 흐름 ────────── -->
+  <section class="slide" data-scene="s12" data-title="자동 삽입 / SELECTIVE 사업부">
+    <h2 class="h1" data-a="0">자동 삽입 / SELECTIVE 사업부</h2>
+    <p class="sub" data-a="1">Selective Soldering</p>
+    <div class="card step to-r" data-a="3"  style="left:63px;top:233px">생산 자료 접수</div>
+    <div class="card step to-r" data-a="5"  style="left:248px;top:233px">원자재 입고</div>
+    <div class="card step to-r" data-a="7"  style="left:433px;top:233px">LINE SETUP</div>
+    <div class="card step to-d" data-a="9"  style="left:618px;top:233px">이형 부품 자동 삽입</div>
+    <div class="card step to-l" data-a="11" style="left:618px;top:333px">FLUX 도포</div>
+    <div class="card step to-l" data-a="13" style="left:433px;top:333px">SELECTIVE<br>SOLDERING</div>
+    <div class="card step"      data-a="15" style="left:248px;top:333px">2D AOI 검사</div>
+  </section>
+
+  <!-- 13 자동 삽입 / SELECTIVE 사업부 · 설비와 라인 구성 ──── -->
+  <section class="slide" data-scene="s13" data-title="자동 삽입 / SELECTIVE 설비">
+    <h2 class="h1" data-a="0">자동 삽입 / SELECTIVE 사업부</h2>
+    <p class="sub" data-a="1">Auto Insert · Selective Soldering</p>
+    <h3 class="sec" data-a="2" style="top:146px">설비</h3>
+
+    <figure class="card eq to-r" data-a="3"  style="left:50px;top:172px;height:150px"><div class="eq-img"><img src="assets/equip/loader.jpg" alt=""></div><figcaption>Loader</figcaption></figure>
+    <figure class="card eq to-r" data-a="5"  style="left:201.5px;top:172px;height:150px"><div class="eq-img"><img src="assets/equip/odd-form-inserter.jpg" alt=""></div><figcaption>이형부품삽입기<br>(With Ball-Feeder)</figcaption></figure>
+    <figure class="card eq to-r" data-a="7"  style="left:353px;top:172px;height:150px"><div class="eq-img"><img src="assets/equip/work-table.jpg" alt=""></div><figcaption>Work-table</figcaption></figure>
+    <figure class="card eq to-r" data-a="9"  style="left:504.5px;top:172px;height:150px"><div class="eq-img"><img src="assets/equip/selective-soldering.jpg" alt=""></div><figcaption>Ultra-Sonic Fluxing &amp;<br>Selective Soldering</figcaption></figure>
+    <figure class="card eq"      data-a="11" style="left:656px;top:172px;height:150px"><div class="eq-img"><img src="assets/equip/unloader.jpg" alt=""></div><figcaption>Unloader</figcaption></figure>
+
+    <h3 class="sec" data-a="13" style="top:342px">라인 구성 <small>A-LINE · B-LINE 동일 구성</small></h3>
+    <p class="abs note" data-a="14" style="left:50px;top:364px;width:742px">규칙성을 가진 Reel, Tray, Bulk, Label 등의 다양한 형태로 공급되는 부품의 자동 삽입에 유용한 설비. 소품종 대량생산에 유리</p>
+    <article class="card spec" data-a="16" style="left:50px;top:396px;width:361px;height:150px">
+      <h4>이형삽입기</h4>
+      <h3>MAI-H6 (미래산업)</h3>
+      <ul class="chips"><li>Bowl Feeder</li><li>Feeder (Chip &amp; Label)</li><li>Gripper Nozzle</li><li>Suction Nozzle</li></ul>
+    </article>
+    <article class="card spec" data-a="18" style="left:431px;top:396px;width:361px;height:150px">
+      <h4>SELECTIVE SOLDERING</h4>
+      <h3>T&amp;I Tek</h3>
+      <ul class="chips"><li>Fluxing 1 EA</li><li>Solder + Preheater 3 EA</li></ul>
+    </article>
+  </section>
+
+  <!-- 14 INSERT 사업부 · 공정 흐름 ───────────────────────── -->
+  <section class="slide" data-scene="s14" data-title="INSERT 사업부">
+    <h2 class="h1" data-a="0">INSERT 사업부</h2>
+    <p class="sub" data-a="1">Insert Soldering</p>
+    <div class="card step to-r" data-a="3"  style="left:63px;top:233px">생산 자료 접수</div>
+    <div class="card step to-r" data-a="5"  style="left:248px;top:233px">원자재 입고</div>
+    <div class="card step to-r" data-a="7"  style="left:433px;top:233px">DIP 부품 준비 작업</div>
+    <div class="card step to-d" data-a="9"  style="left:618px;top:233px">LINE SETUP</div>
+    <div class="card step to-l" data-a="11" style="left:618px;top:333px">DIP 부품 INSERT</div>
+    <div class="card step to-l" data-a="13" style="left:433px;top:333px">FLUX 도포</div>
+    <div class="card step to-l" data-a="15" style="left:248px;top:333px">WAVE SOLDERING</div>
+    <div class="card step"      data-a="17" style="left:63px;top:333px">2D AOI 검사</div>
+  </section>
+
+  <!-- 15 INSERT 사업부 · 설비 ─────────────────────────────── -->
+  <section class="slide" data-scene="s15" data-title="INSERT 설비">
+    <h2 class="h1" data-a="0">INSERT 사업부</h2>
+    <p class="sub" data-a="1">Insert Soldering</p>
+    <h3 class="sec" data-a="2" style="top:146px">INSERT 설비</h3>
+
+    <figure class="card eq to-r" data-a="3"  style="left:50px;top:176px;height:186px"><div class="eq-img"><img src="assets/equip/insert-line.jpg" alt=""></div><figcaption>Insert line</figcaption></figure>
+    <figure class="card eq to-r" data-a="5"  style="left:201.5px;top:176px;height:186px"><div class="eq-img"><img src="assets/equip/flux-machine.jpg" alt=""></div><figcaption>Flux M/C<br>(Spray Type)</figcaption></figure>
+    <figure class="card eq to-r" data-a="7"  style="left:353px;top:176px;height:186px"><div class="eq-img"><img src="assets/equip/wave-soldering.jpg" alt=""></div><figcaption>Wave soldering M/C</figcaption></figure>
+    <figure class="card eq to-r" data-a="9"  style="left:504.5px;top:176px;height:186px"><div class="eq-img"><img src="assets/equip/cooling-fan.jpg" alt=""></div><figcaption>Cooling-fan</figcaption></figure>
+    <figure class="card eq"      data-a="11" style="left:656px;top:176px;height:186px"><div class="eq-img"><img src="assets/equip/post-processing-line.jpg" alt=""></div><figcaption>Post-processing line</figcaption></figure>
+
+    <article class="card duo" data-a="14" style="left:50px;top:386px;width:361px;height:112px">
+      <b>A, B LINE</b><span>동일설비 2개 라인</span><em class="chip on" style="font-style:normal">무연 전용</em>
+    </article>
+    <article class="card duo" data-a="16" style="left:431px;top:386px;width:361px;height:112px">
+      <b>C, D LINE</b><span>동일설비 2개 라인</span><em class="chip on" style="font-style:normal">유연 전용</em>
+    </article>
+  </section>
+
+  <!-- 16 INSERT 사업부 · 검사·납땜 설비 ───────────────────── -->
+  <section class="slide" data-scene="s16" data-title="INSERT 검사 설비">
+    <h2 class="h1" data-a="0">INSERT 사업부</h2>
+    <p class="sub" data-a="1">Insert Soldering</p>
+
+    <article class="card gear" data-a="3" style="left:50px;top:160px">
+      <div class="eq-img"><img src="assets/equip/ict-okano.jpg" alt=""></div>
+      <h3>OKANO AT-01 설비</h3>
+      <p>ICT 설비로 회로의 단선, 쇼트, 용량체크, 오삽, 미삽 등의 회로 검증.</p>
+    </article>
+    <article class="card gear" data-a="6" style="left:304px;top:160px">
+      <div class="eq-img"><img src="assets/equip/aoi-saki.jpg" alt=""></div>
+      <h3>수삽 부품 AOI 검사기 보유</h3>
+      <dl>
+        <dt>Maker</dt><dd>SAKI Corporation</dd>
+        <dt>설비명</dt><dd>BF-Sirius</dd>
+        <dt>AOI 검사프로그램</dt><dd>FUJIYAMA</dd>
+      </dl>
+    </article>
+    <article class="card gear" data-a="9" style="left:558px;top:160px">
+      <div class="eq-img"><img src="assets/equip/robot-solder.jpg" alt=""></div>
+      <h3>로봇 납땜기 R501DT</h3>
+    </article>
+  </section>
+
+  <!-- 17 완제품 조립 사업부 · 공정 흐름 ───────────────────── -->
+  <section class="slide" data-scene="s17" data-title="완제품 조립 사업부">
+    <h2 class="h1" data-a="0">완제품 조립 사업부</h2>
+    <p class="sub" data-a="1">Set Assembly</p>
+    <div class="card step to-r" data-a="3"  style="left:63px;top:183px">생산 자료 접수</div>
+    <div class="card step to-r" data-a="5"  style="left:248px;top:183px">원자재 입고</div>
+    <div class="card step to-r" data-a="7"  style="left:433px;top:183px">사출물 준비 작업</div>
+    <div class="card step to-d" data-a="9"  style="left:618px;top:183px">라인셋업</div>
+    <div class="card step to-l" data-a="11" style="left:618px;top:283px">LINE SETUP</div>
+    <div class="card step to-l" data-a="13" style="left:433px;top:283px">조립</div>
+    <div class="card step to-l" data-a="15" style="left:248px;top:283px">FUNCTION TEST</div>
+    <div class="card step to-d" data-a="17" style="left:63px;top:283px">외관검사</div>
+    <div class="card step to-r" data-a="19" style="left:63px;top:383px"><span>S/N 관리<small>QR, BARCODE</small></span></div>
+    <div class="card step to-r" data-a="21" style="left:248px;top:383px">포장</div>
+    <div class="card step hi"   data-a="23" style="left:433px;top:383px">고객사 출고</div>
+  </section>
+
+  <!-- 18 완제품 조립 사업부 · 주요생산품 ──────────────────── -->
+  <section class="slide" data-scene="s18" data-title="주요생산품 내역">
+    <h2 class="h1" data-a="0">완제품 조립 사업부</h2>
+    <p class="sub" data-a="1">Set Assembly</p>
+    <h3 class="sec" data-a="2" style="top:146px">주요생산품 내역</h3>
+
+    <article class="card prod" data-a="4" style="left:50px;top:174px">
+      <h3>IP-PHONE</h3><span class="who">고객사<b>N사</b></span>
+      <div class="num"><small>약</small><b data-count>1,000,000</b><span>대 / 년</span></div>
+      <p><em class="chip on" style="font-style:normal">국내 1위</em>국내 수요의 95%</p>
+    </article>
+    <article class="card prod" data-a="7" style="left:431px;top:174px">
+      <h3>스마트전력량계</h3><span class="who">고객사<b>N사</b></span>
+      <div class="num"><small>약</small><b data-count>2,400,000</b><span>대 / 년</span></div>
+      <p><em class="chip on" style="font-style:normal">국내 1위</em>국가 스마트그리드 사업 100%</p>
+    </article>
+    <article class="card prod" data-a="10" style="left:50px;top:370px">
+      <h3>스마트그리드 모뎀</h3><span class="who">고객사<b>N사</b></span>
+      <div class="num wide"><small>약</small><b data-count>1,000,000</b><b>~</b><b data-count>2,000,000</b><span>대 / 년</span></div>
+      <p><em class="chip on" style="font-style:normal">국내 1위</em>국가 스마트그리드 사업 100%</p>
+    </article>
+    <article class="card prod" data-a="13" style="left:431px;top:370px">
+      <h3>주차 관제등</h3><span class="who">고객사<b>N사</b></span>
+      <div class="num"><small>약</small><b data-count>120,000</b><span>/ 년</span></div>
+      <p><em class="chip on" style="font-style:normal">국내 1위</em>국내 해당분야 1위 업체</p>
+    </article>
+  </section>
+
+  <!-- 19 완제품 조립 사업부 · 포장공정 설비 ───────────────── -->
+  <section class="slide" data-scene="s19" data-title="포장공정 설비">
+    <h2 class="h1" data-a="0">완제품 조립 사업부</h2>
+    <p class="sub" data-a="1">Set Assembly</p>
+    <h3 class="sec" data-a="2" style="top:146px">포장공정 설비</h3>
+    <p class="card" data-a="3" style="left:50px;top:174px;width:742px;margin:0;padding:15px 20px;font-size:13.5px;line-height:24px;color:var(--fg2)">20M의 왕복 2개 조립라인으로 어떠한 형태의 조립제품이라도 제조가능한 생산능력과 비닐 실링 수축포장기 및 진공포장기, 비닐접착기 등 다양한 형태의 포장설비를 갖추고 있습니다. 자동 나사공급기와 전동을 기본구비하여 능률적인 조립으로 적기 납품을 지향합니다.</p>
+
+    <figure class="card eq" data-a="6"  style="left:50px;top:316px;height:206px"><div class="eq-img"><img src="assets/equip/set-line-20m.jpg" alt=""></div><figcaption>20M Set-line</figcaption></figure>
+    <figure class="card eq" data-a="8"  style="left:201.5px;top:316px;height:206px"><div class="eq-img"><img src="assets/equip/shrink-packer.jpg" alt=""></div><figcaption>실링수축 포장기</figcaption></figure>
+    <figure class="card eq" data-a="10" style="left:353px;top:316px;height:206px"><div class="eq-img"><img src="assets/equip/vacuum-packer.jpg" alt=""></div><figcaption>진공포장</figcaption></figure>
+    <figure class="card eq" data-a="12" style="left:504.5px;top:316px;height:206px"><div class="eq-img"><img src="assets/equip/vinyl-sealer.jpg" alt=""></div><figcaption>비닐접착기</figcaption></figure>
+    <figure class="card eq" data-a="14" style="left:656px;top:316px;height:206px"><div class="eq-img"><img src="assets/equip/screw-feeder.jpg" alt=""></div><figcaption>나사 자동공급기</figcaption></figure>
+  </section>
+
+  <!-- 20 구매 자재 관리부 · 업무 흐름 ─────────────────────── -->
+  <section class="slide" data-scene="s20" data-title="구매 자재 관리부">
+    <h2 class="h1" data-a="0">구매 자재 관리부</h2>
+    <p class="sub" data-a="1">Purchase Department</p>
+    <h3 class="sec" data-a="2" style="top:146px">자재부 업무 FLOW</h3>
+
+    <div class="card step to-r" data-a="3"  style="left:50px;top:176px;width:112px;--gap:14px">고객발주</div>
+    <div class="card step to-r" data-a="5"  style="left:176px;top:176px;width:112px;--gap:14px">사급관리</div>
+    <div class="card step to-r" data-a="7"  style="left:302px;top:176px;width:112px;--gap:14px">도급구매</div>
+    <div class="card step to-r" data-a="9"  style="left:428px;top:176px;width:112px;--gap:14px">자재확인</div>
+    <div class="card step to-r" data-a="11" style="left:554px;top:176px;width:112px;--gap:14px">ERP등록</div>
+    <div class="card step"      data-a="13" style="left:680px;top:176px;width:112px">자재출고</div>
+
+    <article class="card svc" data-a="16" style="left:50px;top:262px;height:200px">
+      <div class="no">01</div><h3>견적서비스</h3>
+      <p>고객요구 맞춤형 생산 및 견적</p>
+    </article>
+    <article class="card svc" data-a="19" style="left:304px;top:262px;height:200px">
+      <div class="no">02</div><h3>구매대행</h3>
+      <p>유통중인 각종 IC, RLC Chip, 가공품, Harness cable 외 각종 부품의 도급 구매 업무</p>
+    </article>
+    <article class="card svc" data-a="22" style="left:558px;top:262px;height:200px">
+      <div class="no">03</div><h3>보관관리</h3>
+      <p>X-ray 카운터로 정확하고, 모빌렉으로 구분지어, QR Code 관리로 편리하고 정확하게 고객의 자산을 관리하고 지켜드립니다</p>
+    </article>
+  </section>
+
+  <!-- 21 구매 자재 관리부 · 구매대행 절차 ─────────────────── -->
+  <section class="slide" data-scene="s21" data-title="구매대행 절차">
+    <h2 class="h1" data-a="0">구매 자재 관리부</h2>
+    <p class="sub" data-a="1">Purchase Department</p>
+    <h3 class="sec" data-a="2" style="top:146px">구매대행 절차</h3>
+
+    <article class="card pane" data-a="4" style="left:50px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+      <h3>고객사</h3>
+      <p>작업에 필요한 BOM, Gerber data, Master sample 등의 자료와 함께 작업의뢰(발주)</p>
+      <hr>
+      <h4>생산의뢰</h4>
+      <ul><li><i>→</i>발주서</li><li><i>→</i>BOM, Gerber Data</li></ul>
+    </article>
+    <div class="between" data-a="7" style="left:271px;top:341px">→</div>
+    <article class="card pane hi" data-a="8" style="left:310px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 13l2 2 4-4"/></svg>
+      <h3>광명테크솔루션</h3>
+      <p>고객의 요구에 맞는 규격과 수량으로 협력사에 발주진행</p>
+      <hr>
+      <h4>도급 발주</h4>
+      <ul><li><i>→</i>발주서 (규격, 수량 납기)</li></ul>
+    </article>
+    <div class="between" data-a="11" style="left:531px;top:341px">→</div>
+    <article class="card pane" data-a="12" style="left:570px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+      <h3>협력사</h3>
+      <p>수주된 내역의 납기일정 당사로 회신 및 자재의 납입.</p>
+      <hr>
+      <h4>수급일정 체크 및 회신</h4>
+      <ul><li><i>←</i>일정 및 견적회신</li><li><i>←</i>자재납품</li></ul>
+    </article>
+  </section>
+
+  <!-- 22 구매 자재 관리부 · 보관 설비 ─────────────────────── -->
+  <section class="slide" data-scene="s22" data-title="자재 관리 설비">
+    <h2 class="h1" data-a="0">구매 자재 관리부</h2>
+    <p class="sub" data-a="1">Purchase Department</p>
+
+    <article class="card gear" data-a="3" style="left:50px;top:160px">
+      <div class="eq-img"><img src="assets/equip/xray-counter.jpg" alt=""></div>
+      <h3>계수설비<small>AI기반 X-RAY 카운터</small></h3>
+      <p style="top:304px">부품의 재질, 규칙성을 AI기반분석을 통해 부품 계수를 신속, 정확하게 고객의 부품 자산을 관리합니다.</p>
+    </article>
+    <article class="card gear" data-a="6" style="left:304px;top:160px">
+      <div class="eq-img photo"><img src="assets/equip/mobile-rack.jpg" alt=""></div>
+      <h3>Mobil-Rack</h3>
+      <p>소량, 소품종 관리를 위한 모빌렉 보관설비 보유</p>
+    </article>
+    <article class="card gear" data-a="9" style="left:558px;top:160px">
+      <div class="eq-img"><img src="assets/equip/dry-cabinet.jpg" alt=""></div>
+      <h3>제습함</h3>
+    </article>
+  </section>
+
+  <!-- 23 품질관리부 · 수입검사 프로세스 ───────────────────── -->
+  <section class="slide" data-scene="s23" data-title="수입검사 프로세스">
+    <h2 class="h1" data-a="0">품질관리부</h2>
+    <p class="sub" data-a="1">Quality Control Department</p>
+    <h3 class="sec" data-a="2" style="top:146px">수입검사 프로세스</h3>
+    <div class="legend" data-a="2"><span class="go"><i></i>진행</span><span class="ng"><i></i>NG</span><span class="ok"><i></i>OK</span></div>
+
+    <p class="m-only m-hint" data-a="3">옆으로 밀어서 전체 보기</p>
+    <div class="m-pan" style="--x:50;--y:172;--w:742;--h:362;--k:1"><div class="m-canvas"><div class="m-shift">
+    <div class="card plain lane-h" data-a="4" style="left:50px;top:172px;width:176px">협력업체</div>
+    <div class="card plain lane-h" data-a="5" style="left:242px;top:172px;width:176px">구매 자재 관리부</div>
+    <div class="card plain lane-h" data-a="6" style="left:434px;top:172px;width:176px">품질관리부</div>
+    <div class="card plain lane-h" data-a="7" style="left:632px;top:172px;width:160px">관련자료</div>
+    <div class="abs lane" data-a="4" style="left:50px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="5" style="left:242px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="6" style="left:434px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="7" style="left:632px;top:208px;width:160px;height:324px">
+      <ul class="docs"><li>인수(수입) 검사 성적서</li><li>검사 기준서</li><li>거래명세서</li><li>회의록</li><li>부적합 통보서</li><li>개선 대책서</li></ul>
+    </div>
+
+    <svg class="flowsvg" data-a="12" viewBox="0 0 842 595">
+      <path class="go" marker-end="url(#ah-go)" d="M212 237H256"/>
+      <path class="go" marker-end="url(#ah-go)" d="M404 237H522V265"/>
+      <path class="ok" marker-end="url(#ah-ok)" d="M448 280H404"/>
+      <path class="ng" marker-end="url(#ah-ng)" d="M522 295V351"/>
+      <path class="go" marker-end="url(#ah-go)" d="M448 366H404"/>
+      <path class="go" marker-end="url(#ah-go)" d="M256 366H212"/>
+      <path class="go" marker-end="url(#ah-go)" d="M448 409H212"/>
+      <path class="go" marker-end="url(#ah-go)" d="M212 495H330V452H448"/>
+      <path class="ng" marker-end="url(#ah-ng)" d="M522 437V424"/>
+      <path class="ok" marker-end="url(#ah-ok)" d="M522 467V480"/>
+    </svg>
+
+    <div class="node" data-a="9"  style="left:64px;top:222px;width:148px">부품 출하</div>
+    <div class="node" data-a="10" style="left:64px;top:351px;width:148px">반품입고</div>
+    <div class="node" data-a="10" style="left:64px;top:394px;width:148px">대책수립, 개선</div>
+    <div class="node" data-a="11" style="left:64px;top:437px;width:148px">개선확인</div>
+    <div class="node" data-a="11" style="left:64px;top:480px;width:148px">개선 대책서 작성</div>
+
+    <div class="node" data-a="9"  style="left:256px;top:222px;width:148px;font-size:10.5px">부품입고 (수량, 규격, 품목 확인)</div>
+    <div class="node" data-a="10" style="left:256px;top:265px;width:148px">자재입고</div>
+    <div class="node" data-a="10" style="left:256px;top:308px;width:148px">생산투입</div>
+    <div class="node" data-a="10" style="left:256px;top:351px;width:148px">반품처리</div>
+
+    <div class="node key" data-a="9"  style="left:448px;top:265px;width:148px">수입검사</div>
+    <div class="node" data-a="10" style="left:448px;top:351px;width:148px">부적합 TAG 부착</div>
+    <div class="node" data-a="10" style="left:448px;top:394px;width:148px">부적합 통보서 작성</div>
+    <div class="node" data-a="11" style="left:448px;top:437px;width:148px">대책 유효성 확인</div>
+    <div class="node" data-a="11" style="left:448px;top:480px;width:148px">사후관리</div>
+    </div></div></div>
+  </section>
+
+  <!-- 24 품질관리부 · 출하검사 프로세스 ───────────────────── -->
+  <section class="slide" data-scene="s24" data-title="출하검사 프로세스">
+    <h2 class="h1" data-a="0">품질관리부</h2>
+    <p class="sub" data-a="1">Quality Control Department</p>
+    <h3 class="sec" data-a="2" style="top:146px">출하검사 프로세스</h3>
+    <div class="legend" data-a="2"><span class="go"><i></i>진행</span><span class="ng"><i></i>NG</span><span class="ok"><i></i>OK</span></div>
+
+    <p class="m-only m-hint" data-a="3">옆으로 밀어서 전체 보기</p>
+    <div class="m-pan" style="--x:50;--y:172;--w:742;--h:362;--k:1"><div class="m-canvas"><div class="m-shift">
+    <div class="card plain lane-h" data-a="4" style="left:50px;top:172px;width:176px">생산부</div>
+    <div class="card plain lane-h" data-a="5" style="left:242px;top:172px;width:176px">품질관리부</div>
+    <div class="card plain lane-h" data-a="6" style="left:434px;top:172px;width:176px">내용</div>
+    <div class="card plain lane-h" data-a="7" style="left:632px;top:172px;width:160px">관련자료</div>
+    <div class="abs lane" data-a="4" style="left:50px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="5" style="left:242px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="6" style="left:434px;top:208px;width:176px;height:324px"></div>
+    <div class="abs lane" data-a="7" style="left:632px;top:208px;width:160px;height:324px">
+      <ul class="docs" style="padding-top:10px"><li>출하 검사 성적서</li><li>검사 기준서</li><li>MASTER SPL</li><li>공정검사일보</li><li>부적합 통보서</li><li>폐기 보고서</li><li>한도 승인서</li><li>특채요청서</li><li>회의록</li></ul>
+    </div>
+
+    <svg class="flowsvg" data-a="12" viewBox="0 0 842 595">
+      <path class="go" marker-end="url(#ah-go)" d="M212 275H234V237H256"/>
+      <path class="go" marker-end="url(#ah-go)" d="M212 366H226V286H212"/>
+      <path class="ok" marker-end="url(#ah-ok)" d="M404 237H448"/>
+      <path class="go" marker-end="url(#ah-go)" d="M522 252V265"/>
+      <path class="ng" marker-end="url(#ah-ng)" d="M330 252V318H212"/>
+      <path class="go" marker-end="url(#ah-go)" d="M212 328H448"/>
+      <path class="go" marker-end="url(#ah-go)" d="M98 338V351"/>
+      <path class="go" marker-end="url(#ah-go)" d="M178 338V351"/>
+      <path class="go" marker-end="url(#ah-go)" d="M98 381V394"/>
+      <path class="go" marker-end="url(#ah-go)" d="M178 381V394"/>
+      <path class="ng" marker-end="url(#ah-ng)" d="M144 409H138V366H132"/>
+      <path class="go" marker-end="url(#ah-go)" d="M212 409H256"/>
+      <path class="go" marker-end="url(#ah-go)" d="M522 338V351"/>
+      <path class="go" marker-end="url(#ah-go)" d="M522 381V394"/>
+      <path class="go" marker-end="url(#ah-go)" d="M522 424V437"/>
+      <path class="go" marker-end="url(#ah-go)" d="M448 452H212"/>
+    </svg>
+
+    <div class="node" data-a="9"  style="left:64px;top:222px;width:148px">일일 생산품</div>
+    <div class="node" data-a="9"  style="left:64px;top:265px;width:148px">전수검사</div>
+    <div class="node" data-a="10" style="left:64px;top:308px;width:148px">부적합내역 통보</div>
+    <div class="node sq" data-a="10" style="left:64px;top:351px;width:68px">폐기</div>
+    <div class="node sq" data-a="10" style="left:144px;top:351px;width:68px">재작업</div>
+    <div class="node sq" data-a="11" style="left:64px;top:394px;width:68px">보고</div>
+    <div class="node sq" data-a="11" style="left:144px;top:394px;width:68px">특채</div>
+    <div class="node" data-a="11" style="left:64px;top:437px;width:148px">사후관리</div>
+
+    <div class="node key" data-a="9" style="left:256px;top:222px;width:148px">AQL 검사</div>
+    <div class="node" data-a="11" style="left:256px;top:394px;width:148px">사후관리</div>
+
+    <div class="node" data-a="9"  style="left:448px;top:222px;width:148px">검사합격</div>
+    <div class="node" data-a="9"  style="left:448px;top:265px;width:148px">출하</div>
+    <div class="node" data-a="10" style="left:448px;top:308px;width:148px">부적합 내역 분석</div>
+    <div class="node" data-a="10" style="left:448px;top:351px;width:148px">분석 원인조사</div>
+    <div class="node" data-a="11" style="left:448px;top:394px;width:148px">개선대책 수립</div>
+    <div class="node" data-a="11" style="left:448px;top:437px;width:148px">유효성확인</div>
+    </div></div></div>
+  </section>
+
+  <!-- 25 품질관리부 · SMT 품질관리 ───────────────────────── -->
+  <section class="slide" data-scene="s25" data-title="SMT 품질관리">
+    <h2 class="h1" data-a="0">품질관리부</h2>
+    <p class="sub" data-a="1">Quality Control Department</p>
+    <h3 class="sec" data-a="2" style="top:146px">SMT 품질관리</h3>
+
+    <article class="card pane" data-a="4" style="left:50px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><path d="M12 21H6V3h8l4 4v4M14 3v4h4"/><circle cx="16" cy="16" r="3.2"/><path d="M18.4 18.4L21 21"/></svg>
+      <h3>SMT 사전작업</h3>
+      <ul class="dots">
+        <li>MODEL별 사양관리 (MASK, 사용솔더)</li>
+        <li>주요자재 베이킹작업 진행</li>
+        <li>프로그램</li>
+        <li class="in">장착릴 BARCODE SCAN</li>
+        <li class="in">오삽방지 프로그램 확인</li>
+        <li>사용 SOLDER 확인 및 상온방치 및 교반</li>
+      </ul>
+    </article>
+    <article class="card pane" data-a="7" style="left:310px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M4 12a8 8 0 0 1 13.7-5.6L20 9M20 4v5h-5M20 12a8 8 0 0 1-13.7 5.6L4 15M4 20v-5h5"/></svg>
+      <h3>초도품 작업</h3>
+      <ul class="dots">
+        <li>PCB PAD와 BOM기반 실자재 매칭 확인</li>
+        <li>SPI 검사진행</li>
+        <li>REFLOW PROFILE 작성 최적화</li>
+        <li>질소 상시 적용</li>
+        <li>AOI (AUTO, MANUAL) 검사</li>
+        <li>X-RAY 검사 (BGA, DFN 등)</li>
+      </ul>
+    </article>
+    <article class="card pane" data-a="10" style="left:570px;top:176px">
+      <svg class="ico" viewBox="0 0 24 24"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>
+      <h3>출하 관리</h3>
+      <ul class="dots">
+        <li>초도 검사 관리</li>
+        <li>출하 AQL 샘플검사 및 성적서발행</li>
+        <li>재전성 포장물 출하포장</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- 26 맺음 ─────────────────────────────────────────── -->
+  <section class="slide" data-scene="s26" data-title="THANK YOU">
+    <img class="cover-logo" data-a="0" src="assets/logo.svg" alt="KWANG MYUNG TECH" style="width:84px">
+    <h2 class="abs bye" data-a="2">THANK YOU</h2>
+    <p class="abs bye-name" data-a="5">광명테크솔루션<span>기본과 원칙을 지키는 회사</span></p>
+    <article class="card contact" data-a="8">
+      <dl>
+        <dt>ADDRESS</dt><dd class="two">서울 금천구 가산디지털1로 233<br>에이스 하이엔드타워 9차 6층 (601호 ~ 618호)</dd>
+        <dt>E-MAIL</dt><dd>km@pcbsmd.co.kr</dd>
+        <dt>FAX</dt><dd>02-855-5404</dd>
+        <dt>WEBSITE</dt><dd>www.pcbsmd.co.kr</dd>
+      </dl>
+    </article>
+  </section>
+
+</main>
+
+<!-- 조작부 -->
+<div id="ui">
+  <div id="pager" role="status" aria-live="polite" aria-atomic="true"><b>01</b> / 26</div>
+  <div id="hint"><span class="d-only">← → 넘기기 · F 전체 화면 · P 인쇄</span><span class="m-only">옆으로 밀어서 넘기기</span></div>
+  <div id="tools">
+    <button type="button" data-act="prev" title="이전 (←)" aria-label="이전 장표"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button type="button" data-act="next" title="다음 (→)" aria-label="다음 장표"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+    <button type="button" data-act="full" title="전체 화면 (F)" aria-label="전체 화면"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    <button type="button" data-act="print" title="인쇄 / PDF 저장 (P)" aria-label="인쇄"><svg viewBox="0 0 24 24"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/></svg></button>
+  </div>
+  <div id="progress"><s></s></div>
+</div>
+
+<script src="js/cover.js"></script>
+<script src="js/scenes3d.js"></script>
+<script src="js/floorplan.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/deck.js"></script>
+</body>
+</html>
